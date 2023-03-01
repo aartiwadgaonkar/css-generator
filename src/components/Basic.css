@@ -1,0 +1,22 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+
+    /* border-radius: 50%; */
+    /* position: absolute;
+    top: 40%;
+    left: 30%; */
+    transform-origin: center center;
+
+}
+
+.main {
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
